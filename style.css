@@ -1,0 +1,253 @@
+.flex-container{
+    display: flex;
+    position: fixed;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    justify-content: right;
+
+
+}
+.box-model{
+    width: 150px;
+    height: 30px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-bottom: 5px solid;
+    border-color:#65b3cf;
+    justify-content: center;
+    background-color: #65b3cf;
+    display: flex;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.logo{
+    color: white;
+    padding-right: 800px;
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+.nav-links li a:hover{
+    color: rgb(141, 61, 61);
+    
+}
+.notice{
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    font-style: oblique;
+    font-size: x-large;
+    height: 90vh;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    text-shadow: 2px 2px 4px rgb(206, 190, 190);
+    
+}
+.head-notice{
+    background-color: rgb(235, 226, 226);
+    font-weight: bolder;
+    font-size: small;
+    width: 100%;
+}
+.notice button{
+    font-style: normal;
+    font-size: large;
+    border: none;
+    background-color: whitesmoke;
+    color: blue;
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.notice button:hover{
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgb(206, 190, 190);
+    background: rgb(124, 92, 92);
+}
+
+/* Transfer */
+.transfer{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-size: large;
+    text-decoration: whitesmoke;
+}
+.trans-label{
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+.trans-label button{
+    cursor: pointer;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(241, 225, 225);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+/* About us*/
+.about-us{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+
+}
+.about_us_content{
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    padding-left: 10px;
+    align-items: center;
+
+}
+
+.about_us_text{
+    line-height: 2rem;
+    font-size: large;
+    font-weight: bold;
+}
+.about_us_stat{
+    display: grid;
+    line-height: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: bold;
+}
+.stat_item{
+    background: linear-gradient(to right, #c5c3a0, #afc8d1);
+    padding: 1rem;
+    border-radius: 50px;
+    box-shadow: rgb(206, 190, 190);
+}
+
+.about-us h2{
+    color: rgb(63, 50, 50);
+}
+.our_services{
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    font-size: large;
+    line-height: 2rem;
+}
+.our_services h2{
+    color: rgb(63, 50, 50);
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 8rem;
+    row-gap: 3rem;
+    padding-left: 1rem;
+}
+/* login */
+.login{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-size: large;
+    text-decoration: whitesmoke;
+}
+.login-label{
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+.login-label button{
+    cursor: pointer;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(241, 225, 225);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+/* register */
+.register{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-size: large;
+    text-decoration: whitesmoke;
+}
+.register-label{
+    background: linear-gradient(to right, #c9bc10, #65b3cf);
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+.register-label button{
+    cursor: pointer;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(241, 225, 225);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+/* footer */
+.footer{
+    background-color: rgb(235, 226, 226);
+    justify-content: center;
+    line-height: 2rem;
+    padding: 1rem;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    gap: 1.5rem;
+}
+
+/* mobile responsiveness */
+@media(max-width : 300px) {
+
+}
